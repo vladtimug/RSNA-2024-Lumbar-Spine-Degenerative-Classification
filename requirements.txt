@@ -8,6 +8,7 @@ matplotlib
 mkdocs
 notebook
 rerun-sdk[notebook]
+pydicom
 pandas
 pip
 python-dotenv
