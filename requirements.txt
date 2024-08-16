@@ -15,4 +15,7 @@ python-dotenv
 scikit-learn
 tqdm
 typer
+opencv-python
+numpy
+pretty-errors
 -e .
