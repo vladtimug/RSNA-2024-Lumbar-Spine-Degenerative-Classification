@@ -10,7 +10,6 @@ Modelling for the 2024 RSNA Kaggle challenge focusing on detection and classific
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
 │   ├── external       <- Data from third party sources.
