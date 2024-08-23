@@ -67,7 +67,7 @@ def main():
         study_data[study_series]['SeriesDescriptions'] = series_descriptions[
                 (series_descriptions['study_id'] == int(args.study_uid)) & 
                 (series_descriptions['series_id'] == int(study_series))
-            ]['series_description'].iloc[0]
+            ]['series_description'].iloc[0].replace(" ", "_")
         study_data[study_series]["Annotations"] = []
         study_data[study_series]["AnnotatedPixels"] = np.zeros(study_data[study_series]["RawPixels"].shape, dtype=np.uint8)
         for sop_instance_uid, image_idx in zip(study_data[study_series]['SOPInstanceUIDs'], range(study_data[study_series]["RawPixels"].shape[-1])):
